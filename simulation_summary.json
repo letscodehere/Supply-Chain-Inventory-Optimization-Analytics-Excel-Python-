@@ -1,0 +1,12 @@
+{
+  "n_sku_warehouse_combinations": 100,
+  "simulation_days_per_combination": 731,
+  "naive_total_stockout_days": 3223,
+  "optimized_total_stockout_days": 734,
+  "stockout_day_reduction_pct": 77.2,
+  "naive_avg_service_level_pct": 95.6,
+  "optimized_avg_service_level_pct": 99.0,
+  "naive_avg_inventory_units": 1036.0,
+  "optimized_avg_inventory_units": 908.0,
+  "avg_inventory_change_pct": -12.4
+}

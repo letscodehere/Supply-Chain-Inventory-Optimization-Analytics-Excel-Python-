@@ -1,0 +1,6 @@
+category,Naive_Stockouts,Optimized_Stockouts,Naive_Avg_Inv,Optimized_Avg_Inv,Stockout_Reduction_%
+Clothing,30,118,1138.6666666666667,876.8666666666667,-293.3
+Electronics,958,184,681.12,995.64,80.8
+Furniture,2018,118,424.3333333333333,1109.6,94.2
+Groceries,0,218,1669.4,730.9666666666667,
+Toys,217,96,869.5333333333333,942.3333333333334,55.8

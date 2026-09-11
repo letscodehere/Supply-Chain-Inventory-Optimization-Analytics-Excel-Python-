@@ -1,0 +1,4 @@
+,Dataset-Provided Forecast,7-Day Moving Average,Holt-Winters Exp. Smoothing
+MAE,8.36,93.43,89.1
+RMSE,10.03,114.83,108.28
+MAPE %,25.64,330.86,329.24

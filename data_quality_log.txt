@@ -1,0 +1,4 @@
+- Loaded 73,100 rows: 5 warehouses, 20 SKUs, 5 categories, 2022-01-01 to 2024-01-01 (731 days)
+- Missing values: 0 | Duplicate (date, warehouse, SKU) rows: 0 | Negative-value rows: 0
+- Warehouse x SKU combinations: 100, each with 731-731 daily records (fully balanced panel: True)
+- Data-quality issue: every one of the 20 Product IDs appears under all 5 categories at different points in the data (Product ID is not a stable category key). Resolved by using (warehouse, Product ID) as the stable analysis grain (full 731-day continuous panel) and assigning each SKU its single most-frequent category for descriptive/ABC grouping only.
